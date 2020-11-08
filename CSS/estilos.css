@@ -1,0 +1,447 @@
+* {
+	box-sizing: border-box;
+}
+
+/*WHAT I DO*/
+.container-work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-work .box {
+    position: relative;
+    width: 280px;
+    height: 264px;
+    background: #1F2041;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 3px solid #1F2041;
+    margin: 1%;
+    z-index: 1;
+}
+
+.container-work .box .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+}
+
+.container-work .box:hover .icon {
+    top: 20px;
+    left: calc(50% - 25px);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.container-work .box .icon img {
+    position: absolute;
+    width: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #Ebebeb;
+}
+
+.container-work .box:hover .icon img {
+    font-size: 30px;
+    width: 60%;
+}
+
+.container-work .box .content {
+    position: absolute;
+    top: 100%;
+    height: cal(100% - 50px);
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container-work .box:hover .content {
+    top: 100px;
+    opacity: 1;
+}
+
+.container-work .box .content h3 {
+    margin: 0 0 0.5rem;
+    padding: 0;
+    color: #1F2041;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.container-work .box .content p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #1F2041;
+    font-size: 1rem;
+}
+
+.container-work .box:nth-child(1) .icon {
+    background: #1F2041;
+}
+
+.container-work .box:nth-child(1) {
+    background: #Ebebeb;
+}
+
+.container-work .box:nth-child(2) .icon {
+    background: #4b3f72;
+}
+
+.container-work .box:nth-child(2) {
+    background: #Ebebeb;
+}
+
+.container-work .box:nth-child(3) .icon {
+    background: #19647E;
+}
+
+.container-work .box:nth-child(3) {
+    background: #Ebebeb;
+}
+
+.bar { 
+    height:18px; 
+    margin:1px 2px;  
+    position:absolute;
+    border-radius:10px;
+    -moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+    -webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;  
+    box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;   
+  }
+
+  /*MEDIA QUERIES*/
+
+    /*****XLARGE - min-width:1200px*****/
+
+    /*****LARGE - between 992px and 1199 px*****/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container-main img {
+        width: 20%;
+    }
+
+    /***SKILLS***/
+    .skill-title {
+        font-size: 1.3rem;
+    }
+
+    /***LANGUAGES***/
+    .language-class h4 {
+        font-size:1.2rem;
+    }
+
+    .language-class p {
+        font-size: 0.9rem;
+    }
+}
+/*****MEDIUM - between 768px and 991px*****/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .container-main img {
+        width: 20%;
+    }
+
+    p.text-photo {
+        margin: 1rem 7rem;
+    }
+
+    .title-text {
+        font-size: 1.8rem;
+    }
+
+    /***INDEX***/
+    .container-work .box .icon {
+        top: 20px;
+        left: calc(50% - 25px);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    
+    .container-work .box .icon img {
+        font-size: 30px;
+        width: 60%;
+    }
+    
+    .container-work .box .content {
+        top: 100px;
+        opacity: 1;
+    }
+
+    /***EDUCATION***/
+    #degree-title h3 {
+        font-size: 1.2rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    .container-education-degree p {
+        font-size: 0.9rem;
+    }
+
+    /***COURSES***/
+    #course-title h3 {
+        font-size: 1.2rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    .container-course-degree p {
+        font-size: 0.9rem;
+    }
+
+    /***SKILLS***/
+    .skill-title {
+        font-size: 1.3rem;
+    }
+
+    /***LANGUAGES***/
+    .language-class h4 {
+        font-size: 1.8rem;
+    }
+
+    .language-class p {
+        font-size: 1.4rem;
+    }
+    
+
+}
+/*****SMALL - between 576px and 767px*****/
+@media (max-width: 767px) {
+
+    /***MAIN***/
+    .container-main img {
+        width: 25%;
+    }
+
+    h1.name {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    h3.profession {
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    p.text-photo {
+        margin: 2rem 3.5rem;
+        font-weight: 300;
+    }
+
+    .title-text {
+        font-size: 1.5rem;
+    }
+
+    /***INDEX***/
+    .container-work .box .icon {
+        top: 20px;
+        left: calc(50% - 25px);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+                
+    .container-work .box .icon img {
+        font-size: 30px;
+        width: 60%;
+    }
+                
+    .container-work .box .content {
+        top: 100px;
+        opacity: 1;
+    }
+
+    /***ABOUT***/
+    div.container-details {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        padding-top: 1%;
+    }
+
+    .container-job {
+        width: 75%;
+        margin: 1%;
+    }
+
+    /***EDUCATION***/
+    #degree-title h3 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 0.9rem;
+    }
+
+    .container-education-degree p {
+        font-size: 0.8rem;
+    }
+
+    .container-education-degree img {
+        width: 4rem;
+        animation-name: fadeIn;
+        animation-duration: 2s;
+    }
+
+    /***COURSES***/
+    #course-title h3 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 0.9rem;
+    }
+
+    .container-course-degree p {
+        font-size: 0.8rem;
+    }
+
+    .container-course-degree img {
+        width: 4rem;
+        animation-name: fadeIn;
+        animation-duration: 2s;
+    }
+
+    /***SKILLS***/
+    .skill-title {
+        font-size: 1.3rem;
+    }
+
+    /***LANGUAGES***/
+    .language-class h4 {
+        font-size: 1.6rem;
+    }
+    
+}
+/****SMALL for Courses and Education****/
+
+@media (max-width: 631px) {
+#degree-title h3 {
+    font-size: 0.9rem;
+}
+
+h5 {
+    font-size: 0.8rem;
+}
+
+#course-title h3 {
+    font-size: 0.9rem;
+}
+}
+
+/*****XSMALL - less than 576px*****/
+@media (max-width: 576px) {
+    
+    /***PHOTO***/
+    .container-main img {
+        width: 50% !important;
+    }
+
+    /***INDEX***/
+    h1.name {
+        font-size: 1.8rem;
+        margin-top: 2%;
+
+    }
+    
+    h3.profession {
+        font-size: 1.4rem;
+    }
+
+    p.text-photo {
+        font-size: 1rem;
+        font-weight: 200;
+        margin: 1rem !important;
+        text-align: center;
+    }
+
+    .container-work .box .icon {
+        top: 20px;
+        left: calc(50% - 25px);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .container-work .box .icon img {
+        font-size: 30px;
+        width: 60%;
+    }
+
+    .container-work .box .content {
+        top: 100px;
+        opacity: 1;
+    }
+
+    /***ABOUT***/
+    .container-job {
+        width: 90% !important;
+    }
+    
+    /***EDUCATION***/
+    #degree-title h3 {
+        font-size: 1.2rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    .container-education-degree p {
+        font-size: 0.8rem;
+        padding: 2%;
+        
+    }
+
+    .title-text {
+        font-size: 1.5rem;
+    }
+
+    /***COURSES***/
+    #course-title h3 {
+        font-size: 0.8rem;
+    }
+
+    .container-course-degree p {
+        font-size: 0.6rem;
+        padding: 2%;
+        
+    }
+
+    /***SKILLS***/
+    .skill-title {
+        font-size: 1rem;
+    }
+    
+    /***LANGUAGES***/
+    .language-class img {
+        width: 40%;
+    }
+    .language-class h4 {
+        font-size: 1.5rem;
+    }
+    
+    .language-class p {
+        font-size: 1rem;
+    }
+}
