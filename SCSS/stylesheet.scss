@@ -1,3 +1,11 @@
+/*VARIABLES*/
+$grey: #Ebebeb;
+$yellow: #FFC857;
+$dark-blue: #1F2041;
+$purple: #4b3f72;
+$light-blue: #19647E;
+
+/*ANIMATIONS*/
 -moz-keyframes graphic-design {
 	0% {
 		width: 0px;
@@ -84,7 +92,7 @@
 }
 
 body {
-	background-color: #Ebebeb;
+	background-color: $grey;
 	margin: 0;
 
 	header {
@@ -93,7 +101,7 @@ body {
 		z-index: 2;
 /***NAV***/
 		.container-nav {
-			background-color: #1F2041;
+			background-color: $dark-blue;
 			text-align: center;
 			margin: auto;
 			position: sticky;
@@ -101,11 +109,11 @@ body {
 			justify-content: space-around;
 
 			.navbar {
-				background-color: #1F2041;
+				background-color: $dark-blue;
 
 				.logo {
 					&:hover {
-						background-color: #19647E;
+						background-color: $light-blue;
 						transition: all 0.5s ease;
 					}
 				}
@@ -125,17 +133,17 @@ body {
 						padding: 1%;
 					}
 					.nav-selection {
-						background-color: #FFC857;
+						background-color: $yellow;
 					}
 					#selection {
-						color: #1F2041;
+						color: $dark-blue;
 					}
 				}
 			}
 
 			.navbar-light {
 				.navbar-toggler {
-					background-color: #Ebebeb;
+					background-color: $grey;
 				}
 				.navbar-toggler-icon {
 					background-image: url(../img/menu.png);
@@ -143,7 +151,7 @@ body {
 				.navbar-nav {
 					.nav-link {
 						position: relative;
-						color: #Ebebeb;
+						color: $grey;
 						font-size: 1rem;
 						animation-name: fadeIn;
 						animation-duration: 1s;
@@ -155,7 +163,7 @@ body {
 							height: 3px;
 							top: 100%;
 							left: 0;
-							background: #FFC857;
+							background: $yellow;
 							transition: transform 0.5s;
 							transform: scaleX(0);
 							transform-origin: right;
@@ -163,7 +171,7 @@ body {
 						&:hover {
 							text-decoration: none;
 							transition: all 0.5s ease;
-							color: #Ebebeb;
+							color: $grey;
 							&::after {
 								transform: scaleX(1);
 								transform-origin: left;
@@ -180,7 +188,7 @@ body {
 	main{
 
 		p {
-			color: #1F2041;
+			color: $dark-blue;
 			font-family: 'Montserrat', sans-serif;
 			font-weight: 400;
 			animation-name: fadeIn;
@@ -188,7 +196,7 @@ body {
 		}
 
 		h2 {
-			color: #Ebebeb;
+			color: $grey;
 			text-align: center;
 			font-size: 1.8rem;
 			font-family: 'Oswald', sans-serif;
@@ -198,7 +206,7 @@ body {
 		h3 {
 			font-size: 1.5rem;
 			font-family: 'Oswald', sans-serif;
-			color: #Ebebeb;
+			color: $grey;
 		}
 
 		h4 {
@@ -216,7 +224,7 @@ body {
 		}
 
 		.container-main {
-			background-image: linear-gradient(#1F2041, #4b3f72);
+			background-image: linear-gradient($dark-blue, $purple);
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -225,12 +233,12 @@ body {
 			img {
 				width: 15%;
 				border-radius: 50%;
-				border: 5px solid #Ebebeb;
+				border: 5px solid $grey;
 				margin: auto;
 			}
 
 			h1.name {
-				color: #Ebebeb;
+				color: $grey;
 				font-family: 'Oswald', sans-serif;
 				font-size: 2rem;
 				text-align: center;
@@ -239,7 +247,7 @@ body {
 			}
 
 			h3.profession {
-				color: #Ebebeb;
+				color: $grey;
 				font-size: 1.5rem;
 				font-family: 'Oswald', sans-serif;
 				text-align: center;
@@ -248,7 +256,7 @@ body {
 			}
 
 			p.text-photo {
-				color: #Ebebeb;
+				color: $grey;
 				font-size: 1rem;
 				font-weight: 300;
 				margin: 2rem 15rem;
@@ -258,11 +266,11 @@ body {
 		}
 
 		.container-text {
-			background-color: #19647E;
+			background-color: $light-blue;
 			padding: 2%;
 			p {
 				font-family: 'Montserrat', sans-serif;
-				color: #Ebebeb;
+				color: $grey;
 				animation-name: fadeIn;
 				animation-duration: 2s;
 			}
@@ -273,9 +281,9 @@ body {
 
 			.button-about {
 				font-family: 'Oswald', sans-serif;
-				background-color: #FFC857;
+				background-color: $yellow;
 				border-radius: 25px;
-				color: #1F2041;
+				color: $dark-blue;
 				padding: 0.5em 1.2em;
 				transition: all 1s ease;
 				text-decoration: none;
@@ -285,15 +293,15 @@ body {
 				animation-duration: 2s;
 				&:hover {
 					text-decoration: none;
-					background-color: #19647E;
-					color: #Ebebeb;
+					background-color: $light-blue;
+					color: $grey;
 				}
 			}
 		}
 
 		.container-details {
 			margin: auto;
-			background-color: #4b3f72;
+			background-color: $purple;
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
@@ -303,10 +311,10 @@ body {
 		}
 
 		.container-job {
-			background-color: #Ebebeb;
+			background-color: $grey;
 			width: 30%;
 			padding: 1%;
-			border: 10px solid #19647E;
+			border: 10px solid $light-blue;
 			position: relative;
 			margin: 1%;
 			animation-name: fadeIn;
@@ -318,7 +326,7 @@ body {
 
 			.container-icon {
 				padding: 3%;
-				background-color: #FFC857;
+				background-color: $yellow;
 				width: 60px;
 				height: 60px;
 				border-radius: 50%;
@@ -327,7 +335,7 @@ body {
 				transition: all 0.2s;
 
 				&:hover {
-					border: 3px solid #1F2041;
+					border: 3px solid $dark-blue;
 				}
 
 				img {
@@ -337,8 +345,8 @@ body {
 		}
 
 		.main-title {
-			background-color: #4b3f72;
-			color: #Ebebeb;
+			background-color: $purple;
+			color: $grey;
 			font-size: 2rem;
 			font-family: 'Oswald', sans-serif;
 			padding: 2%;
@@ -350,15 +358,15 @@ body {
 		.container-sections {
 			padding: 0 0 1rem 1rem;
 			width: 100%;
-			background-image: linear-gradient(#1F2041, #4b3f72);
-			color: #Ebebeb;
+			background-image: linear-gradient($dark-blue, $purple);
+			color: $grey;
 			font-family: 'Oswald', sans-serif;
 			overflow: auto;
 		}
 
 		.title-text {
-			background-color: #19647E;
-			color: #Ebebeb;
+			background-color: $light-blue;
+			color: $grey;
 			font-family: 'Oswald', sans-serif;
 			font-size: 2rem;
 			padding: 1%;
@@ -366,8 +374,9 @@ body {
 			animation-duration: 2s;
 		}
 
+/*BUTTON-CONTACT*/
 		.container-button-contact {
-			background-image: linear-gradient(#4b3f72, #1F2041);
+			background-image: linear-gradient($purple, $dark-blue);
 			margin: auto;
 			font-family: 'Oswald', sans-serif;
 			display: flex;
@@ -377,7 +386,7 @@ body {
 
 			.button-contact {
 				font-family: 'Oswald', sans-serif;
-				background-color: #FFC857;
+				background-color: $yellow;
 				border-radius: 25px;
 				color: #1F2041;
 				transition: all 1s ease;
@@ -397,6 +406,7 @@ body {
 			}
 		}
 
+/*EDUCATION*/
 		.container-education {
 			display: flex;
 			flex-direction: column;
@@ -449,6 +459,7 @@ body {
 			}
 		}
 
+/*COURSES*/
 		.container-courses {
 			display: flex;
 			flex-direction: column;
@@ -502,6 +513,7 @@ body {
 			}
 		}
 
+/*SKILLS*/
 		.container-skills {
 			font-family: 'Oswald', sans-serif;
 			font-size: 2rem;
@@ -573,6 +585,7 @@ body {
 			}
 		}
 
+/*LANGUAGES*/
 		.languages {
 			background-color: #4b3f72;
 			display: grid;
@@ -640,6 +653,7 @@ body {
 			}
 		}
 
+/*ABILITIES*/
 		.abilities {
 			display: grid;
 			background-color: #4b3f72;
@@ -663,10 +677,14 @@ body {
 			}
 		}
 
-		.container-project {
-			margin: 1rem 15rem;
+/*PROJECTS*/
+		.container-projects {
+			div {
+
+			}
 		}
 
+/*FORM*/
 		form {
 			padding: 0.5em 1.2em;
 		}

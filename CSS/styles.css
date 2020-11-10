@@ -1,3 +1,5 @@
+/*VARIABLES*/
+/*ANIMATIONS*/
 -moz-keyframes graphic-design 0% {
   width: 0px; }
 
@@ -123,371 +125,378 @@ body {
           body header .container-nav .navbar-light .navbar-nav .nav-link:hover::after {
             transform: scaleX(1);
             transform-origin: left; }
-  body main p {
-    color: #1F2041;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    animation-name: fadeIn;
-    animation-duration: 2s; }
-  body main h2 {
-    color: #Ebebeb;
-    text-align: center;
-    font-size: 1.8rem;
-    font-family: 'Oswald', sans-serif;
-    margin: 0; }
-  body main h3 {
-    font-size: 1.5rem;
-    font-family: 'Oswald', sans-serif;
-    color: #Ebebeb; }
-  body main h4 {
-    text-align: center;
-    font-size: 1.3rem;
-    font-family: 'Oswald', sans-serif; }
-  body main h5 {
-    font-size: 1rem;
-    padding: 0.5%;
-    animation-name: fadeIn;
-    animation-duration: 2s;
-    font-family: 'Montserrat', sans-serif; }
-  body main .container-main {
-    background-image: linear-gradient(#1F2041, #4b3f72);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 2%; }
-    body main .container-main img {
-      width: 15%;
-      border-radius: 50%;
-      border: 5px solid #Ebebeb;
-      margin: auto; }
-    body main .container-main h1.name {
-      color: #Ebebeb;
-      font-family: 'Oswald', sans-serif;
-      font-size: 2rem;
-      text-align: center;
+  body main {
+    /*BUTTON-CONTACT*/
+    /*EDUCATION*/
+    /*COURSES*/
+    /*SKILLS*/
+    /*LANGUAGES*/
+    /*ABILITIES*/
+    /*PROJECTS*/
+    /*FORM*/ }
+    body main p {
+      color: #1F2041;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
       animation-name: fadeIn;
       animation-duration: 2s; }
-    body main .container-main h3.profession {
+    body main h2 {
       color: #Ebebeb;
+      text-align: center;
+      font-size: 1.8rem;
+      font-family: 'Oswald', sans-serif;
+      margin: 0; }
+    body main h3 {
       font-size: 1.5rem;
       font-family: 'Oswald', sans-serif;
+      color: #Ebebeb; }
+    body main h4 {
       text-align: center;
-      animation-name: fadeIn;
-      animation-duration: 2s; }
-    body main .container-main p.text-photo {
-      color: #Ebebeb;
+      font-size: 1.3rem;
+      font-family: 'Oswald', sans-serif; }
+    body main h5 {
       font-size: 1rem;
-      font-weight: 300;
-      margin: 2rem 15rem;
-      animation-name: fadeIn;
-      animation-duration: 2s; }
-  body main .container-text {
-    background-color: #19647E;
-    padding: 2%; }
-    body main .container-text p {
-      font-family: 'Montserrat', sans-serif;
-      color: #Ebebeb;
-      animation-name: fadeIn;
-      animation-duration: 2s; }
-  body main .container-button {
-    padding: 1%; }
-    body main .container-button .button-about {
-      font-family: 'Oswald', sans-serif;
-      background-color: #FFC857;
-      border-radius: 25px;
-      color: #1F2041;
-      padding: 0.5em 1.2em;
-      transition: all 1s ease;
-      text-decoration: none;
-      font-size: 1.3rem;
-      cursor: pointer;
-      animation-name: fadeIn;
-      animation-duration: 2s; }
-      body main .container-button .button-about:hover {
-        text-decoration: none;
-        background-color: #19647E;
-        color: #Ebebeb; }
-  body main .container-details {
-    margin: auto;
-    background-color: #4b3f72;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    padding-top: 1%; }
-  body main .container-job {
-    background-color: #Ebebeb;
-    width: 30%;
-    padding: 1%;
-    border: 10px solid #19647E;
-    position: relative;
-    margin: 1%;
-    animation-name: fadeIn;
-    animation-duration: 2s; }
-    body main .container-job p {
-      margin-bottom: 0; }
-    body main .container-job .container-icon {
-      padding: 3%;
-      background-color: #FFC857;
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      display: block;
-      margin: auto;
-      transition: all 0.2s; }
-      body main .container-job .container-icon:hover {
-        border: 3px solid #1F2041; }
-      body main .container-job .container-icon img {
-        width: 100%; }
-  body main .main-title {
-    background-color: #4b3f72;
-    color: #Ebebeb;
-    font-size: 2rem;
-    font-family: 'Oswald', sans-serif;
-    padding: 2%; }
-    body main .main-title h2 {
-      padding: 1%; }
-  body main .container-sections {
-    padding: 0 0 1rem 1rem;
-    width: 100%;
-    background-image: linear-gradient(#1F2041, #4b3f72);
-    color: #Ebebeb;
-    font-family: 'Oswald', sans-serif;
-    overflow: auto; }
-  body main .title-text {
-    background-color: #19647E;
-    color: #Ebebeb;
-    font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
-    padding: 1%;
-    animation-name: fadeIn;
-    animation-duration: 2s; }
-  body main .container-button-contact {
-    background-image: linear-gradient(#4b3f72, #1F2041);
-    margin: auto;
-    font-family: 'Oswald', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0; }
-    body main .container-button-contact .button-contact {
-      font-family: 'Oswald', sans-serif;
-      background-color: #FFC857;
-      border-radius: 25px;
-      color: #1F2041;
-      transition: all 1s ease;
-      text-decoration: none;
-      font-size: 1.3rem;
-      cursor: pointer;
+      padding: 0.5%;
       animation-name: fadeIn;
       animation-duration: 2s;
-      padding: 1%;
-      margin: 1%; }
-      body main .container-button-contact .button-contact:hover {
-        text-decoration: none;
-        background-color: #19647E;
-        color: #Ebebeb; }
-  body main .container-education {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding: 0; }
-    body main .container-education .container-education-degree {
-      margin: 1%;
-      padding: 1rem;
-      background-image: linear-gradient(#4b3f72, #1F2041); }
-      body main .container-education .container-education-degree div {
-        display: flex;
-        background-color: #Ebebeb;
-        padding: 0.5rem; }
-        body main .container-education .container-education-degree div a:hover {
-          opacity: .7; }
-        body main .container-education .container-education-degree div #degree-title {
-          width: 75%;
-          display: grid;
-          grid-template-rows: repeat(2, 1fr);
-          align-items: center; }
-          body main .container-education .container-education-degree div #degree-title h3 {
-            color: #1F2041;
-            font-size: 1.5rem;
-            animation-name: fadeIn;
-            animation-duration: 2s; }
-      body main .container-education .container-education-degree p {
-        padding: 1%;
-        margin-bottom: 0;
-        background-color: #Ebebeb; }
-      body main .container-education .container-education-degree img {
-        width: 5rem;
+      font-family: 'Montserrat', sans-serif; }
+    body main .container-main {
+      background-image: linear-gradient(#1F2041, #4b3f72);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-bottom: 2%; }
+      body main .container-main img {
+        width: 15%;
+        border-radius: 50%;
+        border: 5px solid #Ebebeb;
+        margin: auto; }
+      body main .container-main h1.name {
+        color: #Ebebeb;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        text-align: center;
         animation-name: fadeIn;
         animation-duration: 2s; }
-  body main .container-courses {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding: 0; }
-    body main .container-courses .container-course-degree {
-      margin: 1%;
-      padding: 1rem;
-      background-image: linear-gradient(#1F2041, #19647E); }
-      body main .container-courses .container-course-degree div {
-        display: flex;
-        background-color: #Ebebeb;
-        padding: 0.5rem; }
-        body main .container-courses .container-course-degree div a:hover {
-          opacity: .7; }
-        body main .container-courses .container-course-degree div #course-title {
-          width: 75%;
-          display: grid;
-          grid-template-rows: repeat(2, 1fr);
-          align-items: center; }
-          body main .container-courses .container-course-degree div #course-title h3 {
-            color: #1F2041;
-            font-size: 1.5rem;
-            animation-name: fadeIn;
-            animation-duration: 2s; }
-      body main .container-courses .container-course-degree p {
-        padding: 1%;
-        margin-bottom: 0;
-        background-color: #Ebebeb; }
-      body main .container-courses .container-course-degree img {
-        width: 5rem;
-        animation-name: fadeIn;
-        animation-duration: 2s; }
-  body main .container-skills {
-    font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
-    margin-top: 2%;
-    margin-bottom: 2%; }
-    body main .container-skills #skill {
-      list-style: none;
-      font-family: 'Montserrat', sans-serif;
-      width: 75%;
-      margin: auto;
-      position: relative;
-      line-height: 2em; }
-      body main .container-skills #skill div .skill-title {
-        font-family: 'Montserrat', sans-serif;
+      body main .container-main h3.profession {
+        color: #Ebebeb;
         font-size: 1.5rem;
-        color: #1F2041;
-        margin-top: 3%;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
         animation-name: fadeIn;
         animation-duration: 2s; }
-      body main .container-skills #skill div .progress {
-        background: #Ebebeb;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
-        background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
-        background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
-        background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
-        background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
-        background-image: linear-gradient(top, #e1ddd9, #e9e5e2);
-        height: 20px;
-        border-radius: 10px;
-        -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
-        -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
-        box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc; }
-        body main .container-skills #skill div .progress .bar-1 {
-          width: 80%;
-          -moz-animation: graphic-design 2s ease-out;
-          -webkit-animation: graphic-design 2s ease-out;
-          background-color: #1F2041; }
-        body main .container-skills #skill div .progress .bar-2 {
-          width: 75%;
-          -moz-animation: html-css 2s ease-out;
-          -webkit-animation: html-css 2s ease-out;
-          background-color: #FFC857; }
-        body main .container-skills #skill div .progress .bar-3 {
-          width: 60%;
-          -moz-animation: jquery 2s ease-out;
-          -webkit-animation: jquery 2s ease-out;
-          background-color: #4b3f72; }
-        body main .container-skills #skill div .progress .bar-4 {
-          width: 90%;
-          -moz-animation: wordpress 2s ease-out;
-          -webkit-animation: wordpress 2s ease-out;
-          background-color: #19647E; }
-  body main .languages {
-    background-color: #4b3f72;
-    display: grid; }
-    body main .languages h2 {
+      body main .container-main p.text-photo {
+        color: #Ebebeb;
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 2rem 15rem;
+        animation-name: fadeIn;
+        animation-duration: 2s; }
+    body main .container-text {
+      background-color: #19647E;
+      padding: 2%; }
+      body main .container-text p {
+        font-family: 'Montserrat', sans-serif;
+        color: #Ebebeb;
+        animation-name: fadeIn;
+        animation-duration: 2s; }
+    body main .container-button {
+      padding: 1%; }
+      body main .container-button .button-about {
+        font-family: 'Oswald', sans-serif;
+        background-color: #FFC857;
+        border-radius: 25px;
+        color: #1F2041;
+        padding: 0.5em 1.2em;
+        transition: all 1s ease;
+        text-decoration: none;
+        font-size: 1.3rem;
+        cursor: pointer;
+        animation-name: fadeIn;
+        animation-duration: 2s; }
+        body main .container-button .button-about:hover {
+          text-decoration: none;
+          background-color: #19647E;
+          color: #Ebebeb; }
+    body main .container-details {
+      margin: auto;
+      background-color: #4b3f72;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-content: center;
+      padding-top: 1%; }
+    body main .container-job {
+      background-color: #Ebebeb;
+      width: 30%;
+      padding: 1%;
+      border: 10px solid #19647E;
+      position: relative;
+      margin: 1%;
+      animation-name: fadeIn;
+      animation-duration: 2s; }
+      body main .container-job p {
+        margin-bottom: 0; }
+      body main .container-job .container-icon {
+        padding: 3%;
+        background-color: #FFC857;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        transition: all 0.2s; }
+        body main .container-job .container-icon:hover {
+          border: 3px solid #1F2041; }
+        body main .container-job .container-icon img {
+          width: 100%; }
+    body main .main-title {
+      background-color: #4b3f72;
+      color: #Ebebeb;
+      font-size: 2rem;
+      font-family: 'Oswald', sans-serif;
+      padding: 2%; }
+      body main .main-title h2 {
+        padding: 1%; }
+    body main .container-sections {
+      padding: 0 0 1rem 1rem;
+      width: 100%;
+      background-image: linear-gradient(#1F2041, #4b3f72);
+      color: #Ebebeb;
+      font-family: 'Oswald', sans-serif;
+      overflow: auto; }
+    body main .title-text {
+      background-color: #19647E;
       color: #Ebebeb;
       font-family: 'Oswald', sans-serif;
       font-size: 2rem;
-      padding-top: 1%;
-      padding-bottom: 1%;
+      padding: 1%;
       animation-name: fadeIn;
       animation-duration: 2s; }
-    body main .languages .container-languages {
+    body main .container-button-contact {
+      background-image: linear-gradient(#4b3f72, #1F2041);
+      margin: auto;
       font-family: 'Oswald', sans-serif;
-      font-size: 2rem;
-      margin: 2%; }
-      body main .languages .container-languages .row {
-        grid-gap: 0.5rem; }
-        body main .languages .container-languages .row .language-class {
-          display: grid;
-          grid-template-columns: 1fr 4fr;
-          grid-template-rows: 1fr 1fr;
-          border: 0.3rem solid #1F2041;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0; }
+      body main .container-button-contact .button-contact {
+        font-family: 'Oswald', sans-serif;
+        background-color: #FFC857;
+        border-radius: 25px;
+        color: #1F2041;
+        transition: all 1s ease;
+        text-decoration: none;
+        font-size: 1.3rem;
+        cursor: pointer;
+        animation-name: fadeIn;
+        animation-duration: 2s;
+        padding: 1%;
+        margin: 1%; }
+        body main .container-button-contact .button-contact:hover {
+          text-decoration: none;
+          background-color: #19647E;
+          color: #Ebebeb; }
+    body main .container-education {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      padding: 0; }
+      body main .container-education .container-education-degree {
+        margin: 1%;
+        padding: 1rem;
+        background-image: linear-gradient(#4b3f72, #1F2041); }
+        body main .container-education .container-education-degree div {
+          display: flex;
           background-color: #Ebebeb;
-          justify-content: space-evenly;
-          align-items: center;
-          color: #Ebebeb;
-          padding: 0.5%;
-          animation-name: fadeIn;
-          animation-duration: 2s;
-          margin: auto; }
-          body main .languages .container-languages .row .language-class img {
+          padding: 0.5rem; }
+          body main .container-education .container-education-degree div a:hover {
+            opacity: .7; }
+          body main .container-education .container-education-degree div #degree-title {
             width: 75%;
-            padding: 1%;
-            margin-left: 10%;
-            grid-area: 1 / 1 / 2 / 2; }
-          body main .languages .container-languages .row .language-class h4 {
-            text-align: center;
-            font-size: 1.3rem;
-            color: #1F2041;
-            margin-bottom: 0;
-            grid-area: 1 / 2 / 2 / 3; }
-          body main .languages .container-languages .row .language-class p {
-            color: #4b3f72;
-            font-size: 1rem;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 0; }
-          body main .languages .container-languages .row .language-class .level {
-            grid-area: 2 / 1 / 3 / 3; }
-  body main .abilities {
-    display: grid;
-    background-color: #4b3f72; }
-    body main .abilities .container-abilities {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            align-items: center; }
+            body main .container-education .container-education-degree div #degree-title h3 {
+              color: #1F2041;
+              font-size: 1.5rem;
+              animation-name: fadeIn;
+              animation-duration: 2s; }
+        body main .container-education .container-education-degree p {
+          padding: 1%;
+          margin-bottom: 0;
+          background-color: #Ebebeb; }
+        body main .container-education .container-education-degree img {
+          width: 5rem;
+          animation-name: fadeIn;
+          animation-duration: 2s; }
+    body main .container-courses {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      padding: 0; }
+      body main .container-courses .container-course-degree {
+        margin: 1%;
+        padding: 1rem;
+        background-image: linear-gradient(#1F2041, #19647E); }
+        body main .container-courses .container-course-degree div {
+          display: flex;
+          background-color: #Ebebeb;
+          padding: 0.5rem; }
+          body main .container-courses .container-course-degree div a:hover {
+            opacity: .7; }
+          body main .container-courses .container-course-degree div #course-title {
+            width: 75%;
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            align-items: center; }
+            body main .container-courses .container-course-degree div #course-title h3 {
+              color: #1F2041;
+              font-size: 1.5rem;
+              animation-name: fadeIn;
+              animation-duration: 2s; }
+        body main .container-courses .container-course-degree p {
+          padding: 1%;
+          margin-bottom: 0;
+          background-color: #Ebebeb; }
+        body main .container-courses .container-course-degree img {
+          width: 5rem;
+          animation-name: fadeIn;
+          animation-duration: 2s; }
+    body main .container-skills {
       font-family: 'Oswald', sans-serif;
       font-size: 2rem;
-      margin: 2%; }
-      body main .abilities .container-abilities .row {
-        grid-gap: 0.5rem; }
-        body main .abilities .container-abilities .row .ability-class {
-          border: 0.3rem solid #19647E;
-          background-color: #Ebebeb;
+      margin-top: 2%;
+      margin-bottom: 2%; }
+      body main .container-skills #skill {
+        list-style: none;
+        font-family: 'Montserrat', sans-serif;
+        width: 75%;
+        margin: auto;
+        position: relative;
+        line-height: 2em; }
+        body main .container-skills #skill div .skill-title {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.5rem;
+          color: #1F2041;
+          margin-top: 3%;
           animation-name: fadeIn;
-          animation-duration: 2s;
-          margin: auto; }
-  body main .container-project {
-    margin: 1rem 15rem; }
-  body main form {
-    padding: 0.5em 1.2em; }
-  body main .container-email {
-    background-image: linear-gradient(#4b3f72, #1F2041);
-    margin: auto;
-    text-align: center;
-    padding: 1%; }
-    body main .container-email p {
-      color: #Ebebeb; }
-    body main .container-email a img {
-      width: 4rem;
-      border-radius: 50%; }
-      body main .container-email a img:hover {
-        background-color: #FFC857; }
+          animation-duration: 2s; }
+        body main .container-skills #skill div .progress {
+          background: #Ebebeb;
+          background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+          background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+          background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+          background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+          background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+          background-image: linear-gradient(top, #e1ddd9, #e9e5e2);
+          height: 20px;
+          border-radius: 10px;
+          -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+          -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+          box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc; }
+          body main .container-skills #skill div .progress .bar-1 {
+            width: 80%;
+            -moz-animation: graphic-design 2s ease-out;
+            -webkit-animation: graphic-design 2s ease-out;
+            background-color: #1F2041; }
+          body main .container-skills #skill div .progress .bar-2 {
+            width: 75%;
+            -moz-animation: html-css 2s ease-out;
+            -webkit-animation: html-css 2s ease-out;
+            background-color: #FFC857; }
+          body main .container-skills #skill div .progress .bar-3 {
+            width: 60%;
+            -moz-animation: jquery 2s ease-out;
+            -webkit-animation: jquery 2s ease-out;
+            background-color: #4b3f72; }
+          body main .container-skills #skill div .progress .bar-4 {
+            width: 90%;
+            -moz-animation: wordpress 2s ease-out;
+            -webkit-animation: wordpress 2s ease-out;
+            background-color: #19647E; }
+    body main .languages {
+      background-color: #4b3f72;
+      display: grid; }
+      body main .languages h2 {
+        color: #Ebebeb;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        animation-name: fadeIn;
+        animation-duration: 2s; }
+      body main .languages .container-languages {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        margin: 2%; }
+        body main .languages .container-languages .row {
+          grid-gap: 0.5rem; }
+          body main .languages .container-languages .row .language-class {
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            grid-template-rows: 1fr 1fr;
+            border: 0.3rem solid #1F2041;
+            background-color: #Ebebeb;
+            justify-content: space-evenly;
+            align-items: center;
+            color: #Ebebeb;
+            padding: 0.5%;
+            animation-name: fadeIn;
+            animation-duration: 2s;
+            margin: auto; }
+            body main .languages .container-languages .row .language-class img {
+              width: 75%;
+              padding: 1%;
+              margin-left: 10%;
+              grid-area: 1 / 1 / 2 / 2; }
+            body main .languages .container-languages .row .language-class h4 {
+              text-align: center;
+              font-size: 1.3rem;
+              color: #1F2041;
+              margin-bottom: 0;
+              grid-area: 1 / 2 / 2 / 3; }
+            body main .languages .container-languages .row .language-class p {
+              color: #4b3f72;
+              font-size: 1rem;
+              font-weight: bold;
+              text-align: center;
+              margin-bottom: 0; }
+            body main .languages .container-languages .row .language-class .level {
+              grid-area: 2 / 1 / 3 / 3; }
+    body main .abilities {
+      display: grid;
+      background-color: #4b3f72; }
+      body main .abilities .container-abilities {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        margin: 2%; }
+        body main .abilities .container-abilities .row {
+          grid-gap: 0.5rem; }
+          body main .abilities .container-abilities .row .ability-class {
+            border: 0.3rem solid #19647E;
+            background-color: #Ebebeb;
+            animation-name: fadeIn;
+            animation-duration: 2s;
+            margin: auto; }
+    body main form {
+      padding: 0.5em 1.2em; }
+    body main .container-email {
+      background-image: linear-gradient(#4b3f72, #1F2041);
+      margin: auto;
+      text-align: center;
+      padding: 1%; }
+      body main .container-email p {
+        color: #Ebebeb; }
+      body main .container-email a img {
+        width: 4rem;
+        border-radius: 50%; }
+        body main .container-email a img:hover {
+          background-color: #FFC857; }
   body footer .container-footer {
     padding: 0.5em 0 0.5em 0;
     background-color: #1F2041;
