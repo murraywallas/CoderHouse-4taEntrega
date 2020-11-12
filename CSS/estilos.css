@@ -216,7 +216,7 @@
     transition: font-size 0.35s;
   }
   
-/* All hovers here! */
+/*PROJECT-HOVER*/
 .gallery:hover .info, .gallery:hover .foot{
       bottom:10px;
   }
@@ -233,6 +233,13 @@
     font-size: 2.5rem;
   }
 
+/*CONTACT ME!*/
+.contact-photo {
+    border-radius: 50%;
+    width: 30%;
+    margin: 1%;
+    border: 5px solid #19647E;
+}
 
   /*MEDIA QUERIES*/
 
@@ -442,6 +449,11 @@
     .language-class h4 {
         font-size: 1.6rem;
     }
+
+    /***CONTACT ME!***/
+    .contact-photo {
+        width: 40%;
+    }
     
 }
 /****SMALL for Courses and Education****/
@@ -556,6 +568,9 @@ h5 {
         font-size: 1rem;
     }
 
-    /***PROJECTS-EXPERIENCE***/
+    /***CONTACT ME!***/
+    .contact-photo {
+        width: 70%;
+    }
 
 }
