@@ -573,4 +573,13 @@ h5 {
         width: 70%;
     }
 
+    /***PROJECTS***/
+    .gallery.box{
+        width: 350px;
+        height:350px;
+    }
+
+    .gallery .background, .gallery .column{
+        height: 350px;
+    }
 }
